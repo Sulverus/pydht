@@ -15,7 +15,7 @@ def long_description():
 
 
 setup(
-    name='pydht',
+    name='pydht2',
     version='0.5.1',
     description="DHT 11 v.2 Temperature/Humanity GPIO driver for Raspberry PI.",
     long_description=long_description(),
