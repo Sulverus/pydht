@@ -18,7 +18,7 @@ Plug and install
 Offical datasheets: http://www.dfrobot.com/wiki/index.php/DHT11_Temperature_and_Humidity_Sensor_V2_SKU:_DFR0067
 2. Install pydht 
 ```
-pip install pydht
+pip install pydht2
 ```
 
 Usage
@@ -26,7 +26,7 @@ Usage
 You can specify board mode and data pin
 By default board mode is BCM and pin = 4 GPIO
 ```
->>> import pydht2
+>>> import pydht
 >>> pydht.get(board_mode='BCM', pin=4)
 {'humanity': 33, 'temperature': 25}
 ```
