@@ -8,11 +8,11 @@ Features
 * BCM and breadboard modes support(not tested in breadboard)
 * Check sum confirmation
 
-requirements
+Requirements
 ------------
 dht11 driver requires RPi.GPIO library
 
-plug and install
+Plug and install
 ----------------
 1. Plug dht 11 into raspberry pi(VCC to 5v pin, GROUND to GND). For data pin you can use any GPIO data pin
 Offical datasheets: http://www.dfrobot.com/wiki/index.php/DHT11_Temperature_and_Humidity_Sensor_V2_SKU:_DFR0067
@@ -21,10 +21,10 @@ Offical datasheets: http://www.dfrobot.com/wiki/index.php/DHT11_Temperature_and_
 pip install pydht
 ```
 
-usage
+Usage
 -----
-You can specify boadrd mode and data pin
-By default boadr mode is BCM and pin = 4 GPIO
+You can specify board mode and data pin
+By default board mode is BCM and pin = 4 GPIO
 ```
 >>> import pydht
 >>> pydht.get(board_mode='BCM', pin=4)

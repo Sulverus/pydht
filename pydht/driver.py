@@ -39,7 +39,7 @@ class DHTReader(object):
 
   def __init__(self, board_mode='BCM', pin=4):
     """
-    Set boadrd and  pin mode
+    Set board and  pin mode
     """
     if board_mode in self.MODES:
       self.run_mode = self.MODES[board_mode]

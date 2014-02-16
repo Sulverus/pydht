@@ -1,5 +1,5 @@
 __title__ = 'pydht'
-__version__ = '0.5.0'
+__version__ = '0.5.1'
 __autor__ = 'Andrey Drozdov'
 __license__ = 'Apache 2.0'
 
