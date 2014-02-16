@@ -10,6 +10,7 @@ if sys.argv[-1] == 'test':
 
 requirements = ['RPi.GPIO>=0.5.4']
 
+
 def long_description():
     return "DHT 11 v.2 Temperature/Humanity GPIO driver for Raspberrry PI."
 
