@@ -26,7 +26,7 @@ Usage
 You can specify board mode and data pin
 By default board mode is BCM and pin = 4 GPIO
 ```
->>> import pydht
+>>> import pydht2
 >>> pydht.get(board_mode='BCM', pin=4)
 {'humanity': 33, 'temperature': 25}
 ```
