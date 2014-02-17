@@ -1,10 +1,10 @@
 PyDHT
 =====
 
-DHT 11 v.2 Temperature/Humanity GPIO driver.
+DHT 11 v.2 Temperature/Humidity GPIO driver.
 Features
 --------
-* Temperature and humanity mesurements
+* Temperature and humidity measurements
 * BCM and breadboard modes support(not tested in breadboard)
 * Check sum confirmation
 
@@ -28,5 +28,5 @@ By default board mode is BCM and pin = 4 GPIO
 ```
 >>> import pydht
 >>> pydht.get(board_mode='BCM', pin=4)
-{'humanity': 33, 'temperature': 25}
+{'humidity': 33, 'temperature': 25}
 ```

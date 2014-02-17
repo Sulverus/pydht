@@ -116,6 +116,6 @@ class DHTReader(object):
                 not any(data):
             raise DHTException('Wrong check sum')
         return {
-            'humanity': data[self.OFFSET_HUM],
+            'humidity': data[self.OFFSET_HUM],
             'temperature': data[self.OFFSET_TEMP]
         }
